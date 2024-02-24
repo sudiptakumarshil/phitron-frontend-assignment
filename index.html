@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Home</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+		integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+		integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<nav class="navbar navbar-expand-lg bg-theme">
+		<div class="container d-flex justify-content-between">
+			<a class="navbar-brand py-0" href="#">
+				<img src="resources/Group 2.png" alt="logo" class="logo">
+			</a>
+			<button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse"
+				data-bs-target="#navbar-menu" aria-controls="navbar-menu" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse flex-grow-0" id="navbar-menu">
+				<ul class="navbar-nav me-2">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+
+				<div class="header-links">
+					<a href="#" class="me-3">
+						<i class="bi bi-cart3"></i>
+					</a>
+					<a href="#">
+						<i class="bi bi-person"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+	<div id="home-carousel" class="carousel slide">
+		<div class="carousel-inner">
+			<div class="carousel-item active">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 mb-3 d-flex flex-column justify-content-center align-items-start">
+							<div class="tagline">Pro.Beyond</div>
+							<h1 class="main-title">Iphone <span class="fw-bold">14 Pro</span></h1>
+							<div class="subtitle mb-4">Created to change everything for the better. For everyone</div>
+
+							<button class="btn btn-theme">Shop Now</button>
+						</div>
+						<div class="col-lg-4 col-md-4 position-relative">
+							<img src="resources/Iphone-Image.png" class="d-block w-100 carousel-img">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="carousel-item">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-8 col-md-8 d-flex flex-column justify-content-center align-items-start">
+							<div class="tagline">Pro.Beyond</div>
+							<h1 class="main-title">Buy <span class="fw-bold">Apple Watch</span></h1>
+							<div class="subtitle mb-4">Created to change everything for the better. For everyone</div>
+
+							<button class="btn btn-theme">Shop Now</button>
+						</div>
+						<div class="col-lg-4 col-md-4 position-relative">
+							<img src="resources/Iphone-14-pro-1-1.png" class="d-block w-100 carousel-img">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<button class="carousel-control-prev" type="button" data-bs-target="#home-carousel" data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+		</button>
+		<button class="carousel-control-next" type="button" data-bs-target="#home-carousel" data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		</button>
+	</div>
+
+	<div id="featured-product" class="overflow-hidden">
+		<div class="row g-0 py-5 first">
+			<div class="col-lg-6 col-5 px-4">
+				<img src="resources/ipad.png" class="img-fluid">
+			</div>
+			<div class="col-lg-6 col-7 px-4">
+				<h2 class="fs-1">iPad 9</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+					labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+			</div>
+		</div>
+		<div class="row bg-gray g-0 py-5 second">
+			<div class="col-lg-5 col-7 px-4">
+				<h2 class="fs-1"><span class="fw-light">Macbook</span> Air</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+					et dolore magna aliqua. Ut enim ad</p>
+			</div>
+			<div class="col-lg-7 col-5 px-4">
+				<img src="resources/Group-6.png" class="img-fluid">
+			</div>
+		</div>
+		<div class="row g-0 py-5 third">
+			<div class="col-lg-8 col-5 px-4 position-relative">
+				<img src="resources/Iphone-14-pro-1.png" class="img-fluid position-absolute">
+			</div>
+			<div class="col-lg-4 col-7 px-4">
+				<h2 class="fs-1"><span class="fw-light">Apple AirPods</span> Max</h2>
+				<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+			</div>
+		</div>
+	</div>
+
+	<div id="category" class="bg-light">
+		<div class="container">
+			<div class="cateogry-header">
+				<h4 class="mb-4">Browse By Category</h4>
+			</div>
+			<div class="category-content">
+				<div class="category-carousel">
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-phone"></i>
+						<h6 class="text-center">Phone</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-watch"></i>
+						<h6 class="text-center">Smart Watches</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-camera"></i>
+						<h6 class="text-center">Cameras</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-headphones"></i>
+						<h6 class="text-center">Headphones</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-headphones"></i>
+						<h6 class="text-center">Computers</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-controller"></i>
+						<h6 class="text-center">Gaming</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-headphones"></i>
+						<h6 class="text-center">Computers</h6>
+					</div>
+					<div class="single-category text-center bg-gray rounded-3 py-3 px-2">
+						<i class="bi bi-controller"></i>
+						<h6 class="text-center">Gaming</h6>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="products">
+		<div class="container">
+			<nav class="mb-4">
+				<div class="nav nav-underline" id="nav-tab" role="tablist">
+					<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#new-arrival" type="button"
+						role="tab" aria-controls="new-arrival" aria-selected="true">New Arrival</button>
+					<button class="nav-link" data-bs-toggle="tab" data-bs-target="#best-seller" type="button" role="tab"
+						aria-controls="best-seller" aria-selected="false">Best Seller</button>
+					<button class="nav-link" data-bs-toggle="tab" data-bs-target="#featured-products" type="button"
+						role="tab" aria-controls="featured-products" aria-selected="false">Featured Products</button>
+				</div>
+			</nav>
+			<div class="tab-content">
+				<div class="tab-pane fade show active" id="new-arrival" role="tabpanel" tabindex="0">
+					<div class="row g-3">
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple iPhone 14 Pro Max
+										128GB Deep
+										Purple (MQ9T3RX/A)</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$900</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/pocket-camera.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Blackmagic Pocket Cinema
+										Camera 6k</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$2535</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro-1-1.png"
+											class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple Watch Series 9 GPS
+										41mm Starlight Aluminium Case</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$399</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Airpods Max Silver</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$549</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="best-seller" role="tabpanel" tabindex="0">
+					<div class="row g-3">
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple iPhone 14 Pro Max
+										128GB Deep
+										Purple (MQ9T3RX/A)</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$900</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/pocket-camera.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Blackmagic Pocket Cinema
+										Camera 6k</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$2535</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro-1-1.png"
+											class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple Watch Series 9 GPS
+										41mm Starlight Aluminium Case</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$399</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Airpods Max Silver</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$549</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="tab-pane fade" id="featured-products" role="tabpanel" tabindex="0">
+					<div class="row g-3">
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple iPhone 14 Pro Max
+										128GB Deep
+										Purple (MQ9T3RX/A)</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$900</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/pocket-camera.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Blackmagic Pocket Cinema
+										Camera 6k</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$2535</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro-1-1.png"
+											class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Apple Watch Series 9 GPS
+										41mm Starlight Aluminium Case</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$399</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+						<div class="col-xl-3 col-md-4 col-6">
+							<div class="signle-product bg-gray rounded-3 p-4">
+								<div class="mb-4">
+									<div class="d-flex justify-content-between mb-2">
+										<span></span>
+										<span>
+											<i class="bi bi-heart fs-5"></i>
+										</span>
+									</div>
+									<div class="text-center px-4">
+										<img src="resources/Iphone-14-pro.png" class="img-fluid mx-auto product-img">
+									</div>
+								</div>
+								<div class="product-content text-center">
+									<p class="product-title text-center text-dark fw-semibold">Airpods Max Silver</p>
+									<h2 class="fw-bold fst-italic text-center mb-3">$549</h2>
+
+									<button class="w-100 btn btn-dark py-2">Buy Now</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="sale-section" class="overflow-hidden">
+		<div class="row g-0">
+			<div class="col-md-3 position-relative">
+				<img src="resources/image-19.png" class="img-fluid position-absolute" style="left: -70px;">
+			</div>
+			<div
+				class="col-md-3 text-center position-relative mx-auto d-flex flex-column align-item-center justify-content-center">
+				<h1 class="text-white text-center display-2 fw-bolder"><span class="sale-highlight">11.11</span>
+					Sale
+				</h1>
+				<p class="text-white lh-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+						incididunt ut labore et</p>
+			</div>
+			<div class=" col-md-3 position-relative">
+					<img src="resources/foldable-laptop.png" class="img-fluid position-absolute" style="right: -50px;">
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-md-6 mb-3">
+					<a href="#">
+						<img src="resources/Group 2.png" alt="logo" class="logo">
+					</a>
+				</div>
+				<div class="col-xl-3 col-md-6 mb-3">
+					<ul class="social-links">
+						<li>
+							<a href="#">
+								<i class="bi bi-twitter"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="bi bi-facebook"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="bi bi-tiktok"></i>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="bi bi-instagram"></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-6 mb-3">
+					<ul class="important-links">
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Bonus Program</a>
+						</li>
+						<li>
+							<a href="#">Gift Card</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xl-3 col-md-6 mb-3">
+					<ul class="important-links">
+						<li>
+							<a href="#">Assignment to the buyer</a>
+						</li>
+						<li>
+							<a href="#">Find an order</a>
+						</li>
+						<li>
+							<a href="#">Terms of delivery</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+		integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+		integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+	<script>
+		$(document).ready(function () {
+			$('.category-carousel').slick({
+				slidesToShow: 6,
+				slidesToScroll: 1,
+				gap: 5,
+				responsive: [
+					{
+						breakpoint: 992,
+						settings: {
+							slidesToShow: 4,
+						}
+					},
+					{
+						breakpoint: 768,
+						settings: {
+							slidesToShow: 3,
+						}
+					}
+				]
+
+			});
+
+			$('.carousel-content').slick({
+				prevArrow: "<img class='a-left control-c prev slick-prev' src='../images/shoe_story/arrow-left.png'>",
+				nextArrow: "<img class='a-right control-c next slick-next' src='../images/shoe_story/arrow-right.png'>"
+			});
+		});
+	</script>
+</body>
+
+</html>
